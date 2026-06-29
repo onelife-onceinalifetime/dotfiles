@@ -6,5 +6,5 @@ sudo apt install -y \
 	neovim \
 	nodejs npm \
 	python3-pip python3-venv \
-	ripgrep zoxide tealdee \
-echo "Package installaion complete."
+	ripgrep zoxide tealdeer
+echo "Package installation complete."
