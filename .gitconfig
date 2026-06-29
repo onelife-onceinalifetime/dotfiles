@@ -1,0 +1,7 @@
+[user]
+	name = Max
+	email = minkyu2216@gmail.com
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
