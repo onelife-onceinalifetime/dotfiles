@@ -1,6 +1,12 @@
-format = "$directory$git_branch$git_status$time$character"
+format = "$username$directory$git_branch$git_status$time$character"
 
-add_newline = true
+add_newline = false
+
+[username]
+style_user = "#7dcfff"
+style_root = "#f7768e"
+format = "[$user]($style) in"
+show_always = true
 
 [directory]
 style = "#7aa2f7"
@@ -11,7 +17,7 @@ truncate_to_repo = true
 [git_branch]
 symbol = " "
 style = "#bb9af7"
-format = "[$symbol$branch]($style) "
+format = "on[$symbol$branch]($style) "
 
 [git_status]
 style = "#f7768e"
@@ -20,9 +26,9 @@ format = "([$all_status$ahead_behind]($style)) "
 [time]
 disabled = false
 time_format = "%H:%M:%S"
-style = "#565f89"
+style = "#787c99"
 format = "[ $time]($style) "
 
 [character]
-success_symbol = "[❯](#9ece6a)"
+success_symbol = "[❯](#41a6b5)"
 error_symbol = "[❯](#f7768e)"
