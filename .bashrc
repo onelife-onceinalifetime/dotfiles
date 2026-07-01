@@ -115,3 +115,5 @@ fi
 # WSL PATH에서 Windows Node.js/npm 제거 (WSL 네이티브 node와 충돌 방지)
 PATH=$(echo "$PATH" | tr ':' '\n' | grep -vE '/mnt/c/(Program Files/nodejs|Users/[^/]+/AppData/Roaming/npm)' | paste -sd ':' -)
 export PATH
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
