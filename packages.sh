@@ -7,4 +7,5 @@ sudo apt install -y \
 	nodejs npm \
 	python3-pip python3-venv \
 	ripgrep zoxide tealdeer
+curl -sS https://starship.rs/install.sh | sh -s -- --yes
 echo "Package installation complete."
