@@ -117,3 +117,4 @@ PATH=$(echo "$PATH" | tr ':' '\n' | grep -vE '/mnt/c/(Program Files/nodejs|Users
 export PATH
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
+export LS_COLORS="$LS_COLORS:ow=01;34:tw=01;34"
