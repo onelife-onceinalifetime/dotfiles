@@ -6,6 +6,6 @@ sudo apt install -y \
 	neovim \
 	nodejs npm \
 	python3-pip python3-venv \
-	ripgrep zoxide tealdeer
+	ripgrep zoxide tealdeer eza
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
 echo "Package installation complete."
